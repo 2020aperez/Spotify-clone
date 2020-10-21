@@ -7,7 +7,6 @@ import LibraryMusicIcon from "@material-ui/icons/LibraryMusic";
 import { useDataLayerValue } from "./DataLayer";
 import AddBoxIcon from "@material-ui/icons/AddBox";
 import FavoriteIcon from "@material-ui/icons/Favorite";
-import { Link } from "react-router-dom";
 
 function Sidebar() {
   const [{ playlists }, dispatch] = useDataLayerValue();

@@ -6,7 +6,7 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 // This is the client ID from Spotify when you registered.
 const clientId = "65b3983df21746eb954ca6ebee1c8f6e";
 // After authorization/ logged-in it will redirect you back to the home page you created.
-const redirectUri = "https://spotify-clone-67000.web.app"; //"http://localhost:3000/";
+const redirectUri = "https://spotify-clone-67000.web.app"; //"http://localhost:3000/"; 
 
 const scopes = [
   "user-read-currently-playing",
